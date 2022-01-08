@@ -1,0 +1,71 @@
+<!---------------->
+<div class="heading">
+  <h1><b>BAAP Agro Tourism</b></h1>
+  <div class="subtitle">
+    <h2>Displaying 12 out of 120 Farm Destinations</h2>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3" *ngFor="let card of cards">
+      <div class="img">
+        <img src="{{card.img}}" alt="" width="200px">
+        <h4>{{card.title}}</h4>
+        <h6>{{card.act}}</h6>
+        <h5>{{card.desc}}</h5>
+        <h6>{{card.status}}</h6>
+        <button class="button" (click)=book()>Book Now</button>
+        <div *ngIf = "booknow">
+        </div>
+      </div> 
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-md-9"><!------------->
+      <h1></h1>
+    </div>
+  </div>
+</div>
+<hr>
+
+
+<!-- .......................................................... -->
+<!-- <div class="if">
+
+  <h1>hello</h1>
+  <button (click)=toggleOn()>click here</button>
+  <div *ngIf = "isshowdiv">
+    I am student
+  </div>
+
+<h1>good morning</h1>
+<button (click)=display()>click here</button>
+<div *ngIf = "iftrue">
+  I am teacher
+</div>
+
+<h1>good evening</h1>
+<button (click)=show()>click here</button>
+<div *ngIf = "iffalse">
+  I am client
+</div> -->
+
+<button [routerLink]="['/stay']">hello</button>
+<button routerLink="/stay">click here</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

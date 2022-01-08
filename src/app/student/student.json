@@ -1,0 +1,52 @@
+[
+    {
+      "id":1,
+      "name":"Anjali Kadam",
+      "class":"tybca"
+    },
+    {
+      "id":2,
+      "name":"nikita gandole",
+      "class":"fybca"
+    },
+    {
+        "id":3,
+        "name":"Ankita Ghumare",
+        "class":"tyba"
+      },
+      {
+        "id":4,
+        "name":"Prachi Devare",
+        "class":"mca"
+      },
+      {
+        "id":5,
+        "name":"Dnyanu Narwade",
+        "class":"mcs"
+      },
+      {
+        "id":6,
+        "name":"Swejal Nawale",
+        "class":"tybca"
+      },
+      {
+        "id":7,
+        "name":"Aarti Bhagwat",
+        "class":"mca"
+      },
+      {
+        "id":8,
+        "name":"Nikita Shinde",
+        "class":"sybcom"
+      },
+      {
+        "id":9,
+        "name":"Ujwala Wakchaure",
+        "class":"fybcom"
+      },
+      {
+        "id":10,
+        "name":"Pooja Ghawate",
+        "class":"tybsc"
+      }
+  ]

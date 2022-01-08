@@ -1,0 +1,27 @@
+
+<div>
+<p><button (click)= display() [disabled]='show'>SHOW</button>
+<button (click)= display()  [disabled]='!show'>HIDE</button>
+</p>
+
+<div class="names"  *ngIf="show">
+  
+  <table>
+    <tr>
+      <td>Student ID</td>
+      <td>Student NAME</td>
+      <td>Student CLASS</td>
+    </tr>
+
+    <tr *ngFor="let stud of studs">
+      <td>{{stud.id}}</td>
+      <td>{{stud.name}}</td>
+      <td>{{stud.class}}</td>
+    </tr>
+  </table>
+</div>
+
+
+<p class="message" *ngIf="!show ">hide all student detail</p>
+    </div>
+    

@@ -1,0 +1,36 @@
+.heading h1{
+    font-size: 30px;
+    margin-left: 25px;
+    font-family: cursive;
+    margin-top: 70px;
+    height: 8vh;
+    background-color:rgb(238, 235, 235);
+}
+.subtitle h2{
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+h5{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.img{
+    margin-top: 1px;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    float: left;
+}
+.button{
+    margin-left: 150px;
+    background-color: rgb(66, 82, 138);
+    color: white;
+    padding:6px 20px 6px 20px
+}
+
+.if{
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
